@@ -3,7 +3,7 @@
 Side project: Build Website for Lauren with CMS 
   
 ## TODO
-- [ ] Navbar
+- [ ] Responsive NAVBAR with dropdown (see: [Pagetree](#Pagetree))
 - [ ] Intro
 - [ ] Catering
 - [ ] Deliveries
@@ -16,7 +16,7 @@ Side project: Build Website for Lauren with CMS
 
 ## Layout
 
-### Tree
+### Pagetree
 - **HOME**
 - **OUR SERVICE**
   (Takes to page with online form)
@@ -29,7 +29,9 @@ Side project: Build Website for Lauren with CMS
   - Snack Packs
   - Freezer Friendly Meals
 - **BLOG**
+  (takes to BLOG)
 - **OUR STORY**
+  (takes to page with a story of you and maybe a little vid?)
 - **CONTACT/IMPRESSUM**
 
 ### Images
