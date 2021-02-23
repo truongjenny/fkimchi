@@ -38,12 +38,12 @@ Side project: Build Website for Lauren with CMS
 [Pictures](img/)
 
 ### Colors
-<pre style="background-color:#e31f83;font-weight:bold;color:white">#e31f83</pre>
-<pre style="background-color:#0084b6;font-weight:bold;color:white">#0084b6</pre>
-<pre style="background-color:#327131;font-weight:bold;color:white">#327131</pre>
-<pre style="background-color:#babc18;font-weight:bold;color:white">#babc18</pre>
-<pre style="background-color:#fcf8f2;font-weight:bold;color:black">#fcf8f2</pre>
-  
+- ![#e31f83](https://via.placeholder.com/15/e31f83/000000?text=+) #e31f83
+- ![#0084b6](https://via.placeholder.com/15/0084b6/000000?text=+) #0084b6
+- ![#327131](https://via.placeholder.com/15/327131/000000?text=+) #327131
+- ![#babc18](https://via.placeholder.com/15/babc18/000000?text=+) #babc18
+- ![#fcf8f2](https://via.placeholder.com/15/fcf8f2/000000?text=+) #fcf8f2
+
 ## Forms
 ### Inquiries
 There will be an online form to make an catering inquiry with the following:
