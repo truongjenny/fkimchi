@@ -1,14 +1,6 @@
 # Fraulein Kimchi
 
 Side project: Build Website for Lauren with CMS 
-
-## Content
-- [Fraulein Kimchi](#fraulein-kimchi)
-  - [Content](#content)
-  - [TODO](#todo)
-  - [Forms](#forms)
-    - [Inquiries](#inquiries)
-  - [Sources](#sources)
   
 ## TODO
 - [ ] Navbar
@@ -22,9 +14,36 @@ Side project: Build Website for Lauren with CMS
 - [ ] Story
 - [ ] Contact
 
+## Layout
+
+### Tree
+- **HOME**
+- **OUR SERVICE**
+  (Takes to page with online form)
+  - Catering
+  - Food Truck / Pop-Up
+  - Home Delivery (to online shop)
+- **ONLINE SHOP**
+  (takes to shopify for the following options)
+  - Wednesday Deliveries/Wolf Delivery
+  - Snack Packs
+  - Freezer Friendly Meals
+- **BLOG**
+- **OUR STORY**
+- **CONTACT/IMPRESSUM**
+
+### Images
+[Pictures](img/)
+
+### Colors
+<pre style="background-color:#e31f83;font-weight:bold;color:white">#e31f83</pre>
+<pre style="background-color:#0084b6;font-weight:bold;color:white">#0084b6</pre>
+<pre style="background-color:#327131;font-weight:bold;color:white">#327131</pre>
+<pre style="background-color:#babc18;font-weight:bold;color:white">#babc18</pre>
+<pre style="background-color:#fcf8f2;font-weight:bold;color:black">#fcf8f2</pre>
+  
 ## Forms
 ### Inquiries
-
 There will be an online form to make an catering inquiry with the following:
 1. Select
    - Private Party
@@ -38,6 +57,9 @@ There will be an online form to make an catering inquiry with the following:
 4. Location:
 5. Budget:
 6. Additional information: (text field)
+
+### Food Truck & Pop Up
+General Contact Form
 
 ## Sources
 - [Bootstrap 5](https://getbootstrap.com/docs/5.0)
