@@ -3,7 +3,7 @@
 Website for Lauren
 
 TODO:
-- [] Navbar
+- [x] Navbar
 - [] Intro
 - [] Catering
 > Catering Page
