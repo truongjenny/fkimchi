@@ -2,88 +2,107 @@
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Fraulein Kimchi</title>
 
-<!-- bs5 -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-  crossorigin="anonymous"
-/>
+<head>
+  <title>Fraulein Kimchi</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
 
 <body>
-  <nav class="navbar navbar-expand-lg n lsavbar-light bg-light">
-    <div class="container-sm">
-      <a class="navbar-brand" href="#">
-        <img
-          src="img/logo.png"
-          alt="Fraulein Kimchi"
-          width="120"
-          height="100"/>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarpages"
-        aria-controls="navbarpages"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarpages">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Our Services
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Catering</a></li>
-              <li><a class="dropdown-item" href="#">Food Truck Pop-Up</a></li>
-              <li><a class="dropdown-item" href="#">Home Delivery</a></li>
-            </ul>
-            
-          </li>
-           <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Online Shop
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Wednesday Delivery / Wolf Delivery</a></li>
-              <li><a class="dropdown-item" href="#">Snack Packs</a></li>
-              <li><a class="dropdown-item" href="#">Freezer Friendly Meals</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our Story</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
+
+<!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand logo" href="#">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+        <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#pagetree"
+      aria-controls="pagetree"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="pagetree">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" , aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Our Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Catering</a></li>
+            <li><a class="dropdown-item" href="#">Food Truck Pop-Up</a></li>
+            <li><a class="dropdown-item" href="#">Home Delivery</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Online Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#"
+                >Wednesday Delivery / Wolf Delivery</a
+              >
+            </li>
+            <li><a class="dropdown-item" href="#">Snack Packs</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Freezer Friendly Meals</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
+
+<!-- Section 1 -->
+<div class="container">
+  <div class="row">
+  <div class="col" id="sec1">
+    <p>
+    test test
+    </p>
+  
+  </div>
+   <div class="col">
+       <img src="img/logo.png" alt="logo" />
+  </div>
+  </div>
+</div>
   <!-- bs5 javascript, popper -->
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"

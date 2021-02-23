@@ -1,0 +1,16 @@
+.container{
+}
+.navbar-brand img{
+  width:100px;
+  }
+
+/* ToDo: Resolve pririority conflicts */
+.nav-link{
+  color: #e31fe3 !important;
+  background-color:white;
+}
+
+#sec1{
+  color: white !important;
+  background-color: #0084b6;
+}
