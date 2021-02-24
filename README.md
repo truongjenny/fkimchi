@@ -3,7 +3,8 @@
 Side project: Build Website for Lauren with CMS 
   
 ## TODO
-- [ ] Responsive NAVBAR with dropdown (see: [Pagetree](#Pagetree))
+- [x] Responsive NAVBAR with dropdown (see: [Pagetree](#Pagetree))
+- [ ] Spread NavItems evenly across the pages (use justify content?)
 - [ ] Intro
 - [ ] Catering
 - [ ] Deliveries
