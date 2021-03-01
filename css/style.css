@@ -39,7 +39,14 @@
   background-color:  #e31fe3;
 }
 
+.bg4{
+  background-image: url("../img/edit.jpg");
+}
 
+.bg5{
+  color:#fcf8f2;
+  background-color: #0084b6;
+}
 
 /* Images */
 /* ToDo: Make responsive */
