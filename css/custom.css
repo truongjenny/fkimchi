@@ -1,12 +1,14 @@
+
+/* Nav Bar */
 .navbar{
   padding-top: 2%;
   background-color: white;
 }
 
-.navbar-brand img{
+/* .navbar-brand img{
   width:140px;
   height: 130px;
-  }
+  } */
 
 /* ToDo: Resolve pririority conflicts */
 .nav-link{
@@ -30,26 +32,35 @@
   padding:32px;
 }
 
-#sec1{
-  color: white !important;
-  background-color: #0084b6;
-  padding: 5% 5% 5% 15%;
-}
+/* Section 1 */
+
+.title{
+  font-family: 'heygirl' !important;
+  }
+
+/* Buttons */
 
 #readmore{
-  display: flex;
-  justify-self: flex-end;
   background-color:#fcf8f2;
-  border: none;
   color: #0084b6;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
+  padding: 1.125em;
   font-weight: bold;
 }
 
-.bgimg1{
-  background-image: url("../img/background.png");
+#inquire{
+  border: 2px solid #babc18;
+  color: #0084b6;
+  background-color: #fcf8f2;
+  padding: 0.25em 1.5em;
+  font-size: 1.75em;
+  font-family: Helvetica;
+  letter-spacing: 0.1em;
 }
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+

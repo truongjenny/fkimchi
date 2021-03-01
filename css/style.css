@@ -1,0 +1,49 @@
+/* Fonts */
+@font-face{
+  font-family: 'heygirl';
+  src: url('/fonts/hey_girl.otf');
+}
+
+/* Font Size */
+
+
+/* Customs Colors */
+.pink{
+  color: #e31fe3 !important;
+}
+.blue{
+  color:#0084b6 !important;
+}
+.dkgreen{
+  color: #327131 !important;
+}
+.creme{
+  color:#fcf8f2 im !important;
+}
+.green{
+  color: #babc18 !important;
+}
+
+
+/* Background */
+.bg1{
+  color: white !important;
+  background-color: #0084b6;}
+
+.bg2{
+  background-image: url("../img/background.png");
+}
+
+.bg3{
+  color: white !important;
+  background-color:  #e31fe3;
+}
+
+
+
+/* Images */
+/* ToDo: Make responsive */
+.logo img{
+  width:110px;
+  height: 100px;
+  }
