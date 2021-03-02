@@ -3,9 +3,13 @@
 Side project: Build Website for Lauren with CMS 
   
 ## TODO
+
 - [x] Responsive NAVBAR with dropdown (see: [Pagetree](#Pagetree))
 - [ ] Spread NavItems evenly across the pages (use justify content?)
-- [ ] Intro
+- [x] Create responsive grid layout for all section as given in blueprint
+- [x] Costumize fonts, colors, section backgrounds and buttons
+- [x] Create Slideshow and add images
+- [ ] Add 'Inqury' form as pop-up
 - [ ] Catering
 - [ ] Deliveries
 - [ ] Blog
@@ -15,9 +19,15 @@ Side project: Build Website for Lauren with CMS
 - [ ] Story
 - [ ] Contact
 
+## Questions / Feedback
+
+1. Margins, Paddings, Font sizes and spacing
+1. Title for Inquiry (Header of pop up)
+
 ## Layout
 
 ### Pagetree
+
 - **HOME**
 - **OUR SERVICE**
   (Takes to page with online form)
