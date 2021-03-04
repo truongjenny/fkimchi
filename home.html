@@ -19,7 +19,7 @@
   <!-- NAVBAR -->
   <div class='container'>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class='container-fluid mx-lg-5 px-lg-5'>
+    <div class='container w-75'>
     <a class="navbar-brand logo" href="#">
         <img src="img/logo.png" alt="logo" />
     </a>
@@ -36,7 +36,7 @@
     </button>
 
       <div class="collapse navbar-collapse" id="pagetree">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav nav-fill w-100">
             <li class="nav-item">
               <a class="nav-link active" , aria-current="page" href="#">Home</a>
             </li>
@@ -51,7 +51,7 @@
                 Our Services
               </a>
               <ul class="dropdown-menu bg-light">
-                <li><a class="dropdown-item" href="#">Catering</a></li>
+                <li><a class="dropdown-item" href="content/catering.html">Catering</a></li>
                 <li><a class="dropdown-item" href="#">Food Truck Pop-Up</a></li>
                 <li><a class="dropdown-item" href="#">Home Delivery</a></li>
               </ul>
@@ -83,6 +83,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Press</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -165,61 +168,10 @@
       </div>
     </div>
     <div class="d-block d-flex p-5 justify-content-center">
-      <button
-        type="button"
-        class="btn btn-lg _btn _border_green"
-        data-bs-toggle="modal"
-        data-bs-target="#inquiry"
-      >
+      <a class="btn btn-lg _btn _border_green" role="button" href="content/catering.html">
         Inquire
-      </button>
+      </a>
 
-      <!-- Modal for Inquiries  -->
-      <!-- Info:
-                - fade class ass transition effect of modal
-                - modal-dialog class sets width and margins
-                - modal-content class specifies styles (border, colors ect)
-                - data-dismiss="modal" closes the modal
-              -->
-      <div
-        class="modal fade"
-        id="inquiry"
-        tabindex="-1"
-        aria-labelledby="inqueryLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content p-5">
-            <div class="modal-header">
-              <h4 class="modal-title" id="inqueryLabel">Inquiry</h4>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-
-            <div class="container-fluid">
-              <form>I
-                <div class="form-group row">
-                    <input type="text" class="form-control col-md-6" id="inquiryname" placeholder="Name">
-                    <input type="email" class="form-control col-md-6" id="inquiryemail" placeholder="Email">
-                </div>
-              </form>
-
-
-            </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-bs-dismiss="modal">
-                Cancel
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -276,15 +228,16 @@
   </div>
 
   <!-- Section 5 -->
+  
   <footer class="container-fluid bg5">
     <p class="fs-3 text-center">Fraulein Kimchi</p>
     <p class="fs-5 text-center">
       Kollwitzstrasse 46 <br />
       10405 Berlin <br />
       <br />
-      +49 17661330758
+      <a href="tel:+4917661330758">+49 1766 133 0758</a>
       <br />
-      fraeuleinkimchi@gmail.com
+      <a href="mailto:fraeuleinkimchi@gmail.com">fraeuleinkimchi@gmail.com</a>
     </p>
   </footer>
 

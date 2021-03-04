@@ -4,12 +4,12 @@
   background-color: white;
 }
 
-.navbar-collapse{
-  justify-content: space-around;
-}
-
 .nav-link{
   color:#e31fe3 !important;
+  font-family: 'Spartan';
+  text-transform: uppercase;
+  font-size: 0.8rem;
+
 }
 
 /* Section 1 */
@@ -27,9 +27,9 @@
 ._btn{
   color: #0084b6;
   background-color: #fcf8f2;
-  font-family: 'Spartan', sans-serif;
-  font-weight: bold;
-  letter-spacing: 0.1em;
+  font-size: 1.25rem;
+  font-family: 'Spartan';
+  text-transform: uppercase;
 }
 
 /* center image */

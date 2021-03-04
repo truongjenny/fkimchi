@@ -6,8 +6,6 @@
   src: url('/fonts/hey_girl.otf');
 }
 
-
-
 /* Font Size */
 
 
@@ -40,7 +38,7 @@
 
 .bg3{
   color: white !important;
-  background-color: #e31fe;
+  background-color: #e31fe3;
 }
 
 .bg4{
