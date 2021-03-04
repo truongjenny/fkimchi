@@ -1,35 +1,15 @@
 
 /* Nav Bar */
 .navbar{
-  padding-top: 2%;
   background-color: white;
 }
 
-/* .navbar-brand img{
-  width:140px;
-  height: 130px;
-  } */
+.navbar-collapse{
+  justify-content: space-around;
+}
 
-/* ToDo: Resolve pririority conflicts */
 .nav-link{
-  color: #e31fe3 !important;
-  font-size: 22px;
-}
-
-.nav-item{
-  color: #e31fe3 !important;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-.dropdown-item{
-  font-size: 22px;
-  color: #e31fe3;
-}
-
-.dropdown-menu{
-  border: 0ch;
-  padding:32px;
+  color:#e31fe3 !important;
 }
 
 /* Section 1 */
@@ -40,20 +20,15 @@
 
 /* Buttons */
 
-#readmore{
-  background-color:#fcf8f2;
-  color: #0084b6;
-  padding: 1.125em;
-  font-weight: bold;
+._border_green{
+  border: 1px solid #babc18;
 }
 
-#inquire{
-  border: 2px solid #babc18;
+._btn{
   color: #0084b6;
   background-color: #fcf8f2;
-  padding: 0.25em 1.5em;
-  font-size: 1.75em;
-  font-family: Helvetica;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
   letter-spacing: 0.1em;
 }
 
@@ -65,3 +40,20 @@
   margin-bottom: 2em;
 }
 
+/* Model CSS */
+.modal-content{
+  background-color: #fcf8f2;
+  font-family: 'Spartan';
+}
+
+.modal-content .em{
+  color:#babc18;
+}
+
+.modal-header{
+  border-bottom: 1px solid #babc18;
+}
+
+.modal-footer{
+  border-top: 1px solid #babc18;
+}

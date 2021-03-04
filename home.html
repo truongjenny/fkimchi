@@ -17,12 +17,13 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container">
-      <a class="navbar-brand logo" href="#">
+  <div class='container'>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class='container-fluid mx-lg-5 px-lg-5'>
+    <a class="navbar-brand logo" href="#">
         <img src="img/logo.png" alt="logo" />
-      </a>
-      <button
+    </a>
+    <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -31,11 +32,11 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
       <div class="collapse navbar-collapse" id="pagetree">
-        <div class="container-md">
-          <ul class="navbar-nav flex-row flex-wrap">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" , aria-current="page" href="#">Home</a>
             </li>
@@ -89,8 +90,8 @@
           </ul>
         </div>
       </div>
+    </nav>
     </div>
-  </nav>
 
   <!-- SECTION 1-->
   <!-- ToDo: Fix Responsiveness -->
@@ -108,7 +109,9 @@
           journey began.
         </p>
         <div class="d-flex mt-4 justify-content-end">
-          <button type="button" class="btn" id="readmore">READ MORE</button>
+          <button type="button" class="btn _btn">
+            READ MORE
+          </button>
         </div>
       </div>
       <div class="col-12 col-md-6 m-0 p-0">
@@ -161,8 +164,62 @@
         </button>
       </div>
     </div>
-    <div class="d-flex p-5 justify-content-center">
-      <button type="button" class="btn" id="inquire">Inquire</button>
+    <div class="d-block d-flex p-5 justify-content-center">
+      <button
+        type="button"
+        class="btn btn-lg _btn _border_green"
+        data-bs-toggle="modal"
+        data-bs-target="#inquiry"
+      >
+        Inquire
+      </button>
+
+      <!-- Modal for Inquiries  -->
+      <!-- Info:
+                - fade class ass transition effect of modal
+                - modal-dialog class sets width and margins
+                - modal-content class specifies styles (border, colors ect)
+                - data-dismiss="modal" closes the modal
+              -->
+      <div
+        class="modal fade"
+        id="inquiry"
+        tabindex="-1"
+        aria-labelledby="inqueryLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content p-5">
+            <div class="modal-header">
+              <h4 class="modal-title" id="inqueryLabel">Inquiry</h4>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+
+            <div class="container-fluid">
+              <form>I
+                <div class="form-group row">
+                    <input type="text" class="form-control col-md-6" id="inquiryname" placeholder="Name">
+                    <input type="email" class="form-control col-md-6" id="inquiryemail" placeholder="Email">
+                </div>
+              </form>
+
+
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-bs-dismiss="modal">
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -171,57 +228,66 @@
     <div class="row justify-content-center">
       <div class="col-lg-8 justify-content-center bg3 mb-5">
         <h1 class="display-2 title text-center pt-5">Delieveries</h1>
+
         <img src="img/img1.jpg" class="center" width="75%" />
+
         <h2 class="display-5 text-center">We deliver in Berlin!</h2>
+
         <p class="fs-3 text-center">
           Our in-house delivery system goes out every Wednesday.<br />
           You can now also order via Wolt!
         </p>
-        <div class="d-flex p-5 justify-content-evenly">
-          <button type="button" class="btn" id="inquire">Online Shop</button>
-          <button type="button" class="btn" id="inquire">Wolt</button>
+
+        <div class="d-flex d-block justify-content-evenly">
+          <div class="p-4">
+            <button type="button" class="btn btn-lg _btn _border_green">
+              Online Shop
+            </button>
+          </div>
+          <div class="p-4">
+            <button type="button" class="btn btn-lg _btn _border_green">Wolt</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Section 4 -->
-  <div class='container-fluid'>
-    <img src="img/sides.jpg" alt="sides" width='100%'>
+  <div class="container-fluid">
+    <img src="img/sides.jpg" alt="sides" width="100%" />
   </div>
 
   <!-- Section 5 -->
-  <div class='container-fluid'>
+  <div class="container-fluid">
     <h1 class="display-2 title text-center pt-5 blue">Our Shop</h1>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   </div>
 
   <!-- Section 5 -->
-  <div class='container-fluid bg2'>
+  <div class="container-fluid bg2">
     <h1 class="display-2 title text-center pt-5 blue">Blog</h1>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   </div>
 
-    <!-- Section 5 -->
-  <div class='container-fluid'>
+  <!-- Section 5 -->
+  <div class="container-fluid">
     <h1 class="display-2 title text-center pt-5 blue">Newsletter</h1>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   </div>
 
-
-      <!-- Section 5 -->
-  <footer class='container-fluid bg5'>
-    <p class='fs-3 text-center'> Fraulein Kimchi
-    </p>
-    <p class='fs-5 text-center'> Kollwitzstrasse 46 <br>
-    10405 Berlin <br>
-    <br>
-    +49 17661330758
-    <br>
-    fraeuleinkimchi@gmail.com
+  <!-- Section 5 -->
+  <footer class="container-fluid bg5">
+    <p class="fs-3 text-center">Fraulein Kimchi</p>
+    <p class="fs-5 text-center">
+      Kollwitzstrasse 46 <br />
+      10405 Berlin <br />
+      <br />
+      +49 17661330758
+      <br />
+      fraeuleinkimchi@gmail.com
     </p>
   </footer>
-  
+
   <!-- bs5 javascript, popper -->
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
