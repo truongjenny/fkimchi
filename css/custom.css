@@ -1,22 +1,139 @@
 
-/* Nav Bar */
-.navbar{
-  background-color: white;
+/* Remy function */
+@function remy($value) {
+  @return ($value / 16px) * 1rem;
 }
 
-.navbar-collapse{
-  justify-content: space-around;
+/* Nav Bar */
+.navbar{
+  background-color: white !important;
 }
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+@font-face{
+  font-family: 'heygirl';
+  src: url('/fonts/hey_girl.otf');
+}
+
+/* Body */
+
+body{
+}
+
+
+
+/* Section 1 */
+
+#s1_stripe{
+  position:absolute;
+  width: 100vw;
+  background-color: #0084b6;
+  z-index: -1;
+}
+
+.fill {
+    display: flex;
+    height: 550px;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding:0rem;
+}
+.fill img {
+    min-width: 100%;
+    min-height: 100%;
+    }
+
+#sec1{
+  color:#fcf8f2;
+  height: 550px;
+}
+
+#sec1 h1{
+  font-family: "heygirl";
+}
+
+/* Section 2 */
+#catering h1{
+  color: #babc18;
+  font-family: "heygirl";
+}
+
+/* Section 3 */
+#delivery h1{
+  color: #fcf8f2;
+  font-family: "heygirl";
+}
+
+/* Font Size */
+
+
+/* Customs Colors */
+.pink{
+  color: #e31fe3 !important;
+}
+.blue{
+  color:#0084b6 !important;
+}
+.dkgreen{
+  color: #327131 !important;
+}
+.creme{
+  color:#fcf8f2 im !important;
+}
+.green{
+  color: #babc18 !important;
+}
+
+
+/* Background */
+
+._bg_logo{
+  background-image: url("/img/background.png");
+  background-size: 20%;
+  background-repeat: repeat;
+}
+
+._bg_pink{
+  color: white !important;
+  background-color: #e31fe3;
+}
+
+
+.bg4{
+  background-image: url("./img/edit.jpg");
+}
+
+.bg5{
+  color:#fcf8f2;
+  background-color: #0084b6;
+}
+
+/* Images */
+/* ToDo: Make responsive */
+.logo img{
+  width:110px;
+  height: 100px;
+  }
+
+/* Catering */
+#form_cover{
+  background-image: url("/img/img3.jpg");
+  background-size: cover;
+  opacity: 0.7;
+}
+
 
 .nav-link{
   color:#e31fe3 !important;
+  font-size: 1.4rem;
 }
 
 /* Section 1 */
 
-.title{
-  font-family: 'heygirl' !important;
-  }
 
 /* Buttons */
 
@@ -29,7 +146,8 @@
   background-color: #fcf8f2;
   font-family: 'Spartan', sans-serif;
   font-weight: bold;
-  letter-spacing: 0.1em;
+  font-size: 20px;
+  /* letter-spacing: 0.1em; */
 }
 
 /* center image */
@@ -40,20 +158,3 @@
   margin-bottom: 2em;
 }
 
-/* Model CSS */
-.modal-content{
-  background-color: #fcf8f2;
-  font-family: 'Spartan';
-}
-
-.modal-content .em{
-  color:#babc18;
-}
-
-.modal-header{
-  border-bottom: 1px solid #babc18;
-}
-
-.modal-footer{
-  border-top: 1px solid #babc18;
-}

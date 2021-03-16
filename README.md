@@ -9,7 +9,7 @@ Side project: Build Website for Lauren with CMS
 - [x] Create responsive grid layout for all section as given in blueprint
 - [x] Costumize fonts, colors, section backgrounds and buttons
 - [x] Create Slideshow and add images
-- [ ] Add 'Inqury' form as pop-up
+- [x] Add 'Inqury' form as seperate website
 - [ ] Catering
 - [ ] Deliveries
 - [ ] Blog
