@@ -9,7 +9,7 @@
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/custom.css" />
+  <link rel="stylesheet" href="/custom.css" />
 </head>
 
 <body>
@@ -36,9 +36,12 @@
               Services
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./inquiry.html">Catering</a></li>
-              <li><a class="dropdown-item" href="#">Food Truck Pop-Up</a></li>
-              <li><a class="dropdown-item" href="#">Home Delivery</a></li>
+              <li><a class="dropdown-item" href="/inquiry.html">Catering</a></li>
+              <li><a class="dropdown-item" href="/commingsoon.html">Food Truck Pop-Up</a></li>
+              <li><a class="dropdown-item" href="https://fraulein-kimchi-humble-pie.myshopify.com/">Home Delivery</a>
+              </li>
+              <li><a class="dropdown-item" href="https://wolt.com/en/deu/berlin/restaurant/fraeulein-kimich">Wolt
+                  Delivery</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -47,7 +50,7 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="#delivery">
                   Wednesday Delivery / Wolf Delivery
                 </a>
               </li>
@@ -72,34 +75,31 @@
   </div>
 
   <!-- Intro -->
-  <div class="container-fluid mb-3" id='intro'>
-    <div class="row stripe">
-      <div class="col-lg-6 fill">
+  <div class="container-fluid mb-3 " id='intro'>
+    <div class="row w-100 stripe">
+      <div class="col-md-6 fill">
       </div>
-      <div class="d-none d-lg-block col-lg-6 fill">
+      <div class="d-none d-md-block col-md-6 fill">
         <img src="/img/food_jar_1200x800.jpg" alt="food_jar_1200x800">
       </div>
     </div>
-
     <div class="container">
-      <div class="col-lg-6 py-4 content">
-          <h2 class="display-3">Fräulein <br>Kimchi</h2>
-          <p class="fs-4">
-            ... born in Seoul, Korea and raised in the burbs of Toronto, Chicago
-            and Los Angeles. Fräulein Kimchi learned traditional Korean cuisine by
-            the side of one of her beloved aunts, and this is where the kimchi
-            journey began.
-          </p>
-          <div class="d-flex justify-content-end">
-            <button type="button" class="btn _btn">
-              READ MORE
-            </button>
-          </div>
-       
+      <div class="col-md-6 py-4 pe-md-5 content">
+        <h2 class="display-3">Fräulein <br>Kimchi</h2>
+        <p>
+          ... born in Seoul, Korea and raised in the burbs of Toronto, Chicago
+          and Los Angeles. Fräulein Kimchi learned traditional Korean cuisine by
+          the side of one of her beloved aunts, and this is where the kimchi
+          journey began.
+        </p>
+        <div class="d-flex justify-content-end">
+          <button type="button" class="btn _btn">
+            READ MORE
+          </button>
         </div>
-      
       </div>
     </div>
+  </div>
   </div>
 
   <!-- Catering-->
@@ -115,7 +115,7 @@
         </div>
         <div class="carousel-item">
           <img src="/img/catering_buffet_1200x800.jpg" alt="catering_buffet_1200x800" />
-        </div>        
+        </div>
         <div class="carousel-item">
           <img src="/img/catering_bowl_1500x1000.jpg" alt="catering_bowl_1200x800" />
         </div>
@@ -129,35 +129,43 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <p class="fs-4 p-5">Whether it’s business lunch for your office, event catering for weddings or private celebrations, individually bagged crew goodies or food truck catering,  from traditional Korean banquets to American and international style cuisine, our talented chefs can create the perfect package for your event needs</p>
+    <p class="p-4 p-lg-5">Whether it’s business lunch for your office, event catering for weddings or private
+      celebrations, individually bagged crew goodies or food truck catering, from traditional Korean banquets to
+      American and international style cuisine, our talented chefs can create the perfect package for your event needs
+    </p>
 
     <div class="d-block justify-content-center py-4">
-      <a type="button" class="btn _btn" href="./inquiry.html">INQUIRE</a>
+      <a href="/inquiry.html">
+        <button type="button" class="btn _btn">
+          INQUIRY
+        </button>
+      </a>
     </div>
   </div>
 
   <!-- Delieveries -->
   <div class="container-fluid py-4" id="delivery">
     <div class="container my-5 py-5 text-center">
-      <h1 class="display-2">Delieveries</h1>
-      <img src="/img/kitchen_lauren_1200x800.jpg" class="py-4"/>
+      <h1 class="display-2">Deliveries</h1>
+      <img src="/img/kitchen_lauren_1200x800.jpg" class="py-4" />
       <h2 class="display-4 pt-4">We deliver in Berlin!</h2>
-        <p class="fs-4">
-          Our in-house delivery system goes out every Wednesday.<br />
-          You can now also order via Wolt!
-        </p>
+      <p class="fs-4">
+        Our in-house delivery system goes out every Wednesday.<br />
+        You can now also order via Wolt!
+      </p>
 
-        <div class="d-flex py-5 justify-content-around">
-          <a href="https://fraulein-kimchi-humble-pie.myshopify.com/">
+      <div class="d-flex py-5 justify-content-around">
+        <a href="https://fraulein-kimchi-humble-pie.myshopify.com/">
           <button type="button" class="btn _btn">
             ONLINE SHOP
           </button>
-          </a>
-          <button type="button" class="btn _btn">WOLT</button>
-        </div>
+        </a>
+        <a href="https://wolt.com/en/deu/berlin/restaurant/fraeulein-kimich">
+          <button type="button" class="btn _btn">WOLT</button></a>
+      </div>
     </div>
   </div>
- 
+
 
   <!-- Section 4 -->
   <div class="container-fluid m-0 p-0">
@@ -184,10 +192,9 @@
 
 
   <!-- Impressum -->
-  <footer class="footer">
-    <div class="container d-flex justify-content-between align-items-end">
-
-      <div class="d-block">
+  <footer class="container-flex p-5">
+    <div class="row">
+      <div class="col-lg-6">
         <span>
           <h2 class="impressum">Fräulein Kimchi</h2>
           <p>Kollwitzstrasse 46 <br> 10405 Berlin</p>
@@ -197,7 +204,7 @@
           </p>
         </span>
       </div>
-      <div class="d-block">
+      <div class="col-lg-6 d-flex align-items-end justify-content-end">
         <a href="https://www.facebook.com/FraeuleinKimchi/"><i class="fab fa-facebook-square"></i></a>
         <a href="https://instagram.com/fraeuleinkimchi?igshid=561mzttk76t9"><i class="fab fa-instagram"></i></a>
       </div>
