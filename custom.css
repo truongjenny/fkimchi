@@ -248,7 +248,7 @@ footer p {
 
 #formcard_wrapper{
   background: #d8aa96;
-  background: linear-gradient(to bottom, #fcf8f2, #d8aa96);
+  background: linear-gradient(to bottom, white, #d8aa96);
   width: 100vw;
   align-items: center;
   justify-items: center;
