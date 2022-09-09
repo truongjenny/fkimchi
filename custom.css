@@ -11,7 +11,7 @@
 
 body {
   position: relative;
-  /* background-color: #fcf8f2; */
+  background-color: #fcf8f2;
   min-height: 100vh;
   max-width: 100vw;
   font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
@@ -135,8 +135,8 @@ nav .nav-link {
 
 /* Delieveries*/
 #delivery {
-  background-image: url("/img/background_items_850x1049.png");
-  background-size: 20%;
+  /* @ToDo: Image does not load. Maybe to small? */
+  background-image: url('img/background_items_2000x1234.png');
   background-repeat: repeat;
 }
 

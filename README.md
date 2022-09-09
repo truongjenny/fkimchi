@@ -1,6 +1,7 @@
 # Fraulein Kimchi
 
-  
+![preview](preview.jpg)
+
 ## TODO
 
 - [x] Responsive NAVBAR with dropdown (see: [Pagetree](#Pagetree))
