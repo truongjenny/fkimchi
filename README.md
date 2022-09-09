@@ -1,6 +1,5 @@
 # Fraulein Kimchi
 
-Side project: Build Website for Lauren with CMS 
   
 ## TODO
 
@@ -21,6 +20,7 @@ Side project: Build Website for Lauren with CMS
 
 ## Questions / Feedback
 
+1. Background Image Items is note working.
 1. Margins, Paddings, Font sizes and spacing
 1. Title for Inquiry (Header of pop up)
 
